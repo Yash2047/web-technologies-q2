@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Webpage</title>
+
+    <style>
+
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .content {
+            display: flex;
+        }
+
+        .main {
+            width: 70%;
+            padding: 20px;
+            border: 2px solid black;
+        }
+
+        .side {
+            width: 30%;
+            padding: 20px;
+            border: 2px solid black;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Mobile screen */
+        @media (max-width: 600px) {
+
+            .content {
+                display: block;
+            }
+
+            .main {
+                width: auto;
+            }
+
+            .side {
+                width: auto;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Website</h1>
+    </header>
+
+    <div class="content">
+
+        <div class="main">
+            <h2>Main Content</h2>
+            <p>This is my main content.</p>
+        </div>
+
+        <div class="side">
+            <h2>Sidebar</h2>
+            <p>This is my sidebar.</p>
+        </div>
+
+</body>
+
+</html>
